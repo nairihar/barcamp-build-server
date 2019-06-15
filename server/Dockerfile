@@ -4,7 +4,9 @@ WORKDIR /barcamp
 
 ADD package.tar.gz /barcamp
 
-CMD ["npm", "start"]
+COPY run.sh run.sh
+
+CMD ["./run.sh"]
 
 EXPOSE 8080
 

@@ -8,4 +8,4 @@ cd barcamp-server-2
 npm install
 cd ..
 
-tar -cvf ../package.tar.gz ./
+tar -cvf ../package.tar.gz ./ 
