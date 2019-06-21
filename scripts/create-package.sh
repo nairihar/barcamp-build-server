@@ -1,11 +1,13 @@
+#!/usr/bin/env sh
+
 cd components
 
 cd barcamp-server-1
-npm install
+npm install --unsafe-perm
 cd ..
 
 cd barcamp-server-2
-npm install
+npm install --unsafe-perm
 cd ..
 
-tar -cvf ../package.tar.gz ./ 
+tar -zcf ../package.tar.gz ./

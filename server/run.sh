@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 cd barcamp-server-1
 
 npm start 2>&1 &
