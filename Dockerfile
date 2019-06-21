@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:8-alpine
 
 ARG npm_token
 ENV TOKEN=$npm_token
